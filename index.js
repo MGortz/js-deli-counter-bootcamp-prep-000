@@ -19,7 +19,6 @@ function currentLine(currentLine) {
     return "The line is currently empty.";
   } else if (currentLine.length === 1) {
     return `The line is currently: 1. ${currentlLine[0]}`;
-  } else if (currentLine.lenth > 1) {
   }
 }
 
