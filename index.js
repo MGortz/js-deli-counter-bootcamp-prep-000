@@ -22,7 +22,7 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++) {
       lineArray.push(` ${i + 1} ${line[i]}.`);
     }
-    return `The line is currently: 1. ${lineArray[0]}`;
+    return `The line is currently: ${lineArray.join()}`;
   }
 }
 
