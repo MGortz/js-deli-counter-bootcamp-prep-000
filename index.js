@@ -21,8 +21,7 @@ function currentLine(currentLine) {
     var i = 1
     var newArray = [];
       newArray.push(`${currentLine.join(i + 1)}`);
-    }
-    return newArray;
+      return `The line is currently: 1. ${newArray}`;
   }
 }
 
