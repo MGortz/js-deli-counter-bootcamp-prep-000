@@ -20,9 +20,9 @@ function currentLine(line) {
     return "The line is currently empty.";
   } else {
     for (var i = 0; i < line.length; i++) {
-      lineArray.push(`${i + 1}. ${line[i]}`);
+      lineArray.push(`${i + 1}. ${line[i]}` + " ");
     }
-    return `The line is currently:${lineArray.join()}`;
+    return `The line is currently: ${lineArray.join()}`;
   }
 }
 
