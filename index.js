@@ -20,10 +20,9 @@ function currentLine(currentLine) {
   } else if (currentLine.length > 0) {
     var lineArray = [];
     for (var i = 0; i === currentLine.length; i++) {
-      newArray.push(`${currentLine[i]}`)
+      lineArray.push(`${currentLine[i]}`);
     }
-    newArray.push(`${currentLine.join(i + 1)}`);
-      return `The line is currently: 1. ${newArray}`;
+      return `The line is currently: 1. ${lineArray.join()}`;
   }
 }
 
