@@ -22,5 +22,5 @@ function currentLine(currentLine) {
       var lineArray = [];
     
   }
-    return `The line is currently: ${lineArray}`;
+    return `The line is currently: 1. ${lineArray}`;
 }
