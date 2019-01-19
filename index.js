@@ -14,12 +14,12 @@ function nowServing(currentLine) {
       return `Currently serving ${currentLine.splice(0, 1)}.`}
 }
 
-function currentLine(currentLine) {
+function currentLine(line) {
   var lineArray = [];
-  if (currentLine.length === 0) {
+  if (line.length === 0) {
     return "The line is currently empty.";
-  } else if (currentLine.length === 1) {
-    return `The line is currently: 1. ${currentLine[0]}`;
+  } else if (line.length === 1) {
+    return `The line is currently: 1. ${line[0]}`;
   }
 }
 
