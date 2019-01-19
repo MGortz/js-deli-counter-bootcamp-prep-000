@@ -17,7 +17,9 @@ function nowServing(currentLine) {
 function currentLine(currentLine) {
   if (currentLine.length === 0) {
     return "The line is currently empty.";
-  } else if (currentLine.length === 1) {
-    return `The line is currently: 1. ${currentLine[0]}`;
+  } else if (currentLine.length > 0) {
+    var lineArray = [];
+    
   }
+    return `The line is currently: ${lineArray}`;
 }
