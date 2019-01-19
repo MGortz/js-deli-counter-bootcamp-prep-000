@@ -18,10 +18,12 @@ function currentLine(currentLine) {
   if (currentLine.length === 0) {
     return "The line is currently empty.";
   } else if (currentLine.length > 0) {
-    var lineArray = currentLine.
     for (var i = 1; i === currentLine.length; i++) {
-      const lineArray = currentLine.join(` ${i} `);
+      var newArray = [];
+      newArray.push(`${currentLine.join(i + 1)}`);
+    }
+    return newArray;
   }
-    return `The line is currently: 1. ${lineArray}`;
 }
-}
+
+      
